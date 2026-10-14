@@ -38,8 +38,30 @@ git remote add origin https://github.com/BB007-galaxy/Local.git ->copy this URL 
 
 git remote -v
 
- git branch 
+git branch 
 
- git push origin main
+git push origin main
 
- the local folder (Local) == same in remote repo (Local)
+the local folder (Local) == same in remote repo (Local)
+
+----------------------------------------------------------------------------------------------------------------------
+
+git branch
+
+git checkout -b feature1
+
+git checkout main
+
+git checkout -b frature2
+
+git branch -d frature2
+
+git push origin feature1
+
+git diff main
+
+git pull origin main
+
+git merge main
+
+git merge feature1
